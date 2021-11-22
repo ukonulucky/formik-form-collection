@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+.form-control2{
+    width: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .label{
+        color: blue;
+        font-size: 1rem;
+        font-weight: bolder;
+        text-align: left;
+        text-transform: capitalize;
+        display:flex;
+        flex-direction: row;
+        padding: 10px;
+        width: 100%;
+        margin-right: auto;
+       
+    }
+    .field{
+        color:  blue;
+        font-weight: bold;
+        text-align: left;
+        text-transform: capitalize;
+        display:flex;
+        flex-direction: column;
+        padding:5px 10px;
+        width: 70%;
+        height: 2rem;
+        font-size: 1rem;
+        margin-left: 8px;
+        border-radius: 10px;
+        
+        &:hover{
+            border-color:darkslateblue;
+            box-shadow:grey 5px 5px ; 
+        }
+        @media screen and (max-width: 750px) {
+            font-size:0.6rem;
+        }
+        @media screen and (max-width: 300px) {
+            height:20px;
+        }
+}
+    
+    .error{
+        color: red;
+        text-align:left;
+        text-transform: capitalize;
+        font-size: 15px;
+        padding: 8px;
+        margin-left: 8px;
+        
+        @media screen and (max-width: 750px) {
+            font-size:0.8rem;
+        }
+    }
+   
+}
+.button{
+    color: blue;
+        font-weight: bold;
+        padding:10px;
+        margin-top: 20px;
+        display: flex;
+        width: 18%;
+        margin-left: 7%;
+        justify-content: center;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        &:hover{
+              border-color:rgb(134, 121, 219);
+            background-color: rgb(167, 167, 189);
+            color: white;
+        }
+        @media screen and (max-width: 900px) {
+            width: 30% ;
+        }
+        @media screen and (max-width: 750px) {
+            font-size:0.6rem;
+        }
+        @media screen and (max-width: 280px) {
+            width:40%;
+        }
+}
+Form{
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(53, 69, 97, 0.533);
+    margin-top: 5vh;
+    margin-bottom: 5vh
+}
+.buttonElement{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: left;
+    padding-left: 5px;
+    justify-content: space-around;
+    color:  blue;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .buttonLogo{
+        color: blue;
+        padding: 0.5rem;
+    }
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    text-align: center;
+    padding-left: 5px;
+    color: blue;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.form-control3{ 
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 0.3rem
+}
+ input{
+     border-width: 0px !important;
+ }
+
+.form-control4{
+display: flex;
+justify-content: left;
+}
+.label{
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: left;
+    text-transform: capitalize;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
